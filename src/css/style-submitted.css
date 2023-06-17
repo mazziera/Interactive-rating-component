@@ -1,0 +1,28 @@
+.rating-component  .submitted-state{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.rating-component  .submitted-state .illustration-thank-you{
+    display: block;
+    padding: 30px 20px;
+    margin: auto;
+}
+
+.rating-component .submitted-state .warnning{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: hsl(219, 11%, 26%);
+    margin-bottom: 25px;
+   font-size: 15px;
+   font-weight: 400;
+   color: hsl(25, 97%, 53%);
+   border-radius: 50px;
+}
+
+.rating-component .submitted-state h2, .thanks{
+    text-align: center;
+}

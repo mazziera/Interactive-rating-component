@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body{
+    background-color: var(--Background);
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    padding: 15px 0;
+    font-size: 25px;
+    color: var(--title-color);
+}
+
+.rating-component{
+    background-color: var(--card-color);
+    max-width: 375px;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.rating-component .standard-state{
+    width: 100%;
+}
+
+.rating-component .standard-state .star-logo{
+    width: fit-content;
+    background-color:  hsl(219, 11%, 26%);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.rating-component .standard-state ul{
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+}
+
+.rating-component .standard-state ul .item{
+    background-color: hsl(219, 11%, 26%);
+    margin-right: 25px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    line-height: 48px;
+    color: var(--numbers-rating-color);
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.rating-component .standard-state ul .item:hover{
+    background-color: var(--numbers-rating-color-hover);
+    color: #FFFF;
+    cursor: pointer;
+}
+
+.rating-component .standard-state .submit{
+    width: 100%;
+    padding: 14px;
+    margin-top: 8px;
+    border-radius: 50px;
+    background-color: var(--button-submit-standard-color);
+    color: white;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.rating-component .standard-state .submit:hover{
+    background-color: var(--button-submit-standard-color-hover);
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}

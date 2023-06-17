@@ -1,0 +1,14 @@
+:root{
+    --Background: hsl(216, 12%, 8%);
+    --card-color: hsl(213, 19%, 18%);
+    --title-color: hsl(0, 0%, 100%);
+    
+    --paragraph-color: hsl(217, 12%, 63%);
+    --numbers-rating-color: hsl(216, 12%, 54%);
+    --numbers-rating-color-hover: hsl(218, 10%, 54%);
+    --numbers-rating-color-clicked: hsl(25, 97%, 53%);
+    
+
+    --button-submit-standard-color: hsl(25, 97%, 53%);
+    --button-submit-standard-color-hover: #FFFEFF;
+}

@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+p{
+    width: 100%;
+    color: var(--paragraph-color);
+    line-height: 22px;
+}
+
+ul{
+    list-style: none;
+}
