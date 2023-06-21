@@ -2,11 +2,13 @@ const standardState = document.querySelector('.standard-state');
 
 const numbersRate = document.querySelectorAll('li');
 
-let ratePoint = document.getElementById('rate');
-console.log(ratePoint);
-
 const submitButton = document.querySelector('.submit');
 
+let ratePoint = document.getElementById('rate');
+// console.log(ratePoint);
+
+
+// console.log(value.classList);
 
 numbersRate.forEach(function(li) {
     li.addEventListener('click', () =>{
@@ -22,7 +24,7 @@ numbersRate.forEach(function(li) {
         getNumber.style.backgroundColor = 'hsl(219, 11%, 26%)'; //gray
         getNumber.style.color ='hsl(216, 12%, 54%)'; //numbers-rating-color
 
-        return
+    
     });
 });
 
@@ -32,10 +34,12 @@ function submitRate(){
 
     const submitted = document.querySelector('.submitted-state');
 
-    ratePoint.innerText = numbersRate.classList.contains('selected').innerText
+    const value = document.querySelector('.selected');
+
+    ratePoint.innerHTML = value.textContent;
 
     standardState.style.display ='none';
 
     submitted.style.display ='block';
-
 };
+
