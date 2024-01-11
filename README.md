@@ -23,15 +23,18 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Nota
 Por se tratar de um desafio de um site em inglês resolvi codar em inglês, para praticar e manter o costume deste idioma.
-<br><br>
+<br>
+
 ### O Desafio
+    O desafio consiste em construir um componente de classificação interativo e fazê-lo parecer o mais próximo possível do design.
+
 
 Os usuários devem ser capazes de:
 
 - Interagir com o layout ideal para o aplicativo, dependendo do tamanho da tela do dispositivo;
 - Interagir com os estados de foco para todos os elementos interativos na página;
 - Selecionar e enviar uma classificação numérica;
-- Após enviarem o seu voto, o cartão de Agradecimento por participarem será disponível.
+- Após enviarem o seu voto, o cartão de Agradecimento por participarem será disponível para visualização.
 
 ### Screenshot
 
@@ -52,7 +55,7 @@ Os usuários devem ser capazes de:
 - Mobile-first
 - CSS3 responsivo
 - Flexbox
-- Javascript DOM
+- Javascript
 
 
 ### O que aprendi?
@@ -60,6 +63,7 @@ Os usuários devem ser capazes de:
 Pude consolidar ainda mais meus conhecimentos em HTML semântico, o poder das grouping tags de facilitarem a estruturação do projeto, links posicionados de forma semântica; <br>
 Também o CSS responsivo com Media Queries para gerar uma melhor experiência para o usuário, independendo do dispositivo. Flexbox, elementos posicionados de forma rápida e prática. Modelo de Caixas. Tipografia. Variaveis. Displays ; <br>
 Pude também firmar mais meu conhecimento em manipulação do DOM do Javascript. <br>
+O método forEach, simplificou muito em iterar os itens dos números de classificação, tornando o código mais conciso e de fácil entendimento. <br>
 Novidade: o tão aclamado hoje em dia, Mobile First, realizar a estruturação pensando neste modelo, ao final, facilitou num modo geral o projeto, economizando linhas de código e quantidade de arquivos de estilo.
 
 ### Dificuldades
