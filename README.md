@@ -69,7 +69,7 @@ Novidade: o tão aclamado hoje em dia, Mobile First, realizar a estruturação p
 ### Dificuldades
 
 Tive moderada dificuldade com a manipulação do DOM, por ainda estar aprendendo a sintaxe da linguagem e também a lógica de programação.
-Mobile First, como novidade, tive uma leve demora com a integração desta técnica.
+Mobile First, como novidade, tive uma leve demora com a implementação desta técnica.
 
 ## Contato
 
